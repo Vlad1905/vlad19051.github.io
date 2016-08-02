@@ -1,0 +1,611 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+
+<title>Ремонт квартир и офисов в Москве и МО</title>
+
+<link rel="icon" href="http://neva-remontlux.ru/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="http://neva-remontlux.ru/favicon.png" type="image/x-icon" />
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/template.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<meta name="viewport" content="960, initial-scale=0.3, maximum-scale=1" />
+
+<!--===================================================| Lightbox script |=======================-->
+			<script src="js/jquery-1.10.2.min.js"></script>
+			<script src="js/lightbox-2.6.min.js"></script>
+
+			<script>
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', '']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+
+			</script>
+<!--===================================================| Lightbox end|=======================-->
+
+
+<!--================Slider=========-->
+<link rel="stylesheet" type="text/css" href="css/slider.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+
+<!--=======sender=========-->
+<script src="js/jquery.1.9.0.min.js"></script>
+<script src="js/form-call.js"></script>
+
+
+<!--================timer=========-->
+<link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="assets/countdown/jquery.countdown.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/countdown/jquery.countdown2.js"></script>
+<script src="assets/js/script2.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+
+
+<!--================lightbox=========-->
+<script src="js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="css/screen.css" media="screen"/>
+<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
+
+</head>
+<body>
+
+<!--top-->
+<div class="top_wrap">
+	<div class="top block960">
+		<div class="logo_ower">
+			<h1><span class="brown">СТРОЙ -</span> РЕМОНТ №1 </h1>
+			<h2>Ремонт квартир и офисов в Москве и МО</h2>
+		</div>
+		<div class="phone_wrap">
+			<div class="zvoni">Звоните прямо сейчас!</div>
+			<div class="phone_number">8 (967) <span class="brown">064-55-85</span> </div>
+		</div>
+	</div>
+</div>
+<!--top_end-->
+
+<!--header-->
+<div class="wrap header_wrap">
+	<div class="header_title block960">
+		<span class="bold bg_black">Ремонт квартир от эконом до премиум класса</span><br>
+		<span class="bg_black">От 2100 руб/м2. Без посредников. Гарантия 1 год.</span>
+	</div>
+	<div class="header block960">
+		<div class="header_left">
+			<div class="akcia">
+				<div class="akcia_head">Акция!</div>
+				<div class="akcia_cont">
+					Создадим дизайн Вашей <br>
+					квартиры <span class="bold">в подарок</span> 
+				</div>
+				<div class="timer_wrap">
+					<div class="timer_title">до конца акции осталось:</div>
+					<div class="timer_js">
+						<div id="countdown"></div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="header_right">
+			<div class="header_form_wrap">
+				<div class="form-block light_brown">
+					<div class="form_head">Оставьте заявку на <span class="bold">бесплатный расчёт</span> стоимости ремонта</div>
+					<input type="hidden" id="f-utm" value="&lt;br&gt;&lt;strong&gt;Яндекс.Директ метки&lt;/strong&gt;&lt;br&gt;Тип площадки, на которой произведён показ объявления: поисковая площадка&lt;br&gt;Название площадки РСЯ: none&lt;br&gt;Инициирован ли этот показ «дополнительными релевантными фразами»: показ по одной из исходных фраз&lt;br&gt;Тип блока, если показ произошёл на странице с результатами поиска Яндекса: блок не на поиске Яндекса&lt;br&gt;Точная позиция объявления в блоке: 13&lt;br&gt;Ключевая фраза, по которой было показано объявление: ремонт квартир&lt;br&gt;Номер (ID) рекламной кампании: 8804305&lt;br&gt;Номер (ID) объявления: 359948579&lt;br&gt;Номер (ID) ключевой фразы: 2110478172">
+                    <label><input type="text" class="input_st fname" placeholder="Введите Ваше имя"></label>
+                    <label><input type="text" class="input_st fphone" placeholder="Введите Ваш телефон"></label>
+                    <a class="btn_yel btn-send" href="#"><span>Заказать расчёт</span></a>
+                    <!--div class="conf">Мы гарантируем 100% конфиденциальность.<br> Ваши данные не будут переданы третьим лицам.</div-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--header_end-->
+
+<!--eggs-->
+<div class="eggs_wrap">
+	<div class="eggs block960">
+		<div class="block_heading">Ощутите все преимущества работы с профессионалами</div>
+		<div class="eggs_list">
+			<div class="egg">
+				<img src="img/egg_ico_1.png">
+				<div class="egg_desc">
+					<span class="bold">1000 рублей</span> за каждый день просрочки -выплачиваем неустойку!
+				</div>
+			</div>
+
+			<div class="egg">
+				<img src="img/egg_ico_2.png">
+				<div class="egg_desc">
+					<span class="bold">10 лет</span> опыт работы наших мастеров
+				</div>
+			</div>
+
+			<div class="egg">
+				<img src="img/egg_ico_3.png">
+				<div class="egg_desc">
+					<span class="bold">1 год</span> – гарантия на работу
+				</div>
+			</div>
+
+			<div class="egg">
+				<img src="img/egg_ico_4.png">
+				<div class="egg_desc">
+					<span class="bold">1 месяц</span> до окончания ремонта Вашей мечты!
+				</div>
+			</div>
+
+			<div class="egg">
+				<img src="img/egg_ico_5.png">
+				<div class="egg_desc">
+					Только русские рабочие
+				</div>
+			</div>
+
+			<div class="egg">
+				<img src="img/egg_ico_6.png">
+				<div class="egg_desc">
+					Работаем по договору
+				</div>
+			</div>
+
+			<div class="egg">
+				<img src="img/egg_ico_7.png">
+				<div class="egg_desc">
+					Собственный отдел контроля качества
+				</div>
+			</div>
+
+			<div class="egg">
+				<img src="img/egg_ico_8.png">
+				<div class="egg_desc">
+					Цена остаётся неизменной до окончания работ
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--eggs_end-->
+
+<!--portfolio-->
+<div class="portfolio_wrap">
+	<div class="portfolio block960">
+		<div class="block_heading white">Примеры наших работ</div>
+		<div class="portfolio_list">
+            <!--==================| Slider |=======================-->
+			<div id="slideshow" class="image-row">
+				<div id="slidesContainer" class="image-set">
+
+					<!--==================| Slide 1 |=======================-->
+					<div class="slide">
+						<a class="example-image-link" href="img/pr_full_10.jpg" data-lightbox="example-set" title="Шверника ул. 45 к.1"><img class="example-image"  src="img/primer_10.png"></a>
+						<!--a class="example-image-link" href="img/pr_full_11.jpg" data-lightbox="example-set" title="Click on the right side of the image to move forward."><img class="example-image"  src="img/primer_11.png"></a-->
+						<a class="example-image-link" href="img/pr_full_12.jpg" data-lightbox="example-set" title="Шверника ул. 45 к.1"><img class="example-image"  src="img/primer_12.png"></a>
+						<a class="example-image-link" href="img/pr_full_13.jpg" data-lightbox="example-set" title="Шверника ул. 45 к.1"><img class="example-image"  src="img/primer_13.png"></a>
+
+						<a class="example-image-link" href="img/pr_full_20.jpg" data-lightbox="example-set" title="Пехотная ул. д.10. 45 кв.м"><img class="example-image"  src="img/primer_20.png"></a>
+						<a class="example-image-link" href="img/pr_full_21.jpg" data-lightbox="example-set" title="Пехотная ул. д.10. 45 кв.м"><img class="example-image"  src="img/primer_21.png"></a>
+						<a class="example-image-link" href="img/pr_full_22.jpg" data-lightbox="example-set" title="Пехотная ул. д.10. 45 кв.м"><img class="example-image"  src="img/primer_22.png"></a>
+
+					</div>
+					<!--==================| Slide 2 |=======================-->
+					<div class="slide">
+						<a class="example-image-link" href="img/pr_full_23.jpg" data-lightbox="example-set" title="Мира пр-кт, д.116. 45 кв.м"><img class="example-image"  src="img/primer_23.png"></a>
+						<a class="example-image-link" href="img/pr_full_24.jpg" data-lightbox="example-set" title="Мира пр-кт, д.116. 45 кв.м"><img class="example-image"  src="img/primer_24.png"></a>
+						<a class="example-image-link" href="img/pr_full_25.jpg" data-lightbox="example-set" title="Мира пр-кт, д.116. 45 кв.м"><img class="example-image"  src="img/primer_25.png"></a>
+						<a class="example-image-link" href="img/pr_full_26.jpg" data-lightbox="example-set" title="Мира пр-кт, д.116, д.10. 45 кв.м"><img class="example-image"  src="img/primer_26.png"></a>
+						<a class="example-image-link" href="img/pr_full_27.jpg" data-lightbox="example-set" title="Мира пр-кт, д.116, д.10. 45 кв.м"><img class="example-image"  src="img/primer_27.png"></a>
+
+						<!--a class="example-image-link" href="img/pr_full_14.jpg" data-lightbox="example-set" title="Click on the right side of the image to move forward."><img class="example-image"  src="img/primer_14.png"></a-->
+						<a class="example-image-link" href="img/pr_full_15.jpg" data-lightbox="example-set" title="ул. Верхние поля, д. 24-26 - 42 кв.м"><img class="example-image"  src="img/primer_15.png"></a>
+						
+						
+					</div>
+					<!--==================| Slide 3 |=======================-->
+					<div class="slide">
+						<a class="example-image-link" href="img/pr_full_16.jpg" data-lightbox="example-set" title="Верхние поля, д. 24-26 - 42 кв.м"><img class="example-image"  src="img/primer_16.png"></a>
+						<a class="example-image-link" href="img/pr_full_17.jpg" data-lightbox="example-set" title="Верхние поля, д. 24-26 - 42 кв.м"><img class="example-image"  src="img/primer_17.png"></a>
+						<a class="example-image-link" href="img/pr_full_18.jpg" data-lightbox="example-set" title="Верхние поля, д. 24-26 - 42 кв.м"><img class="example-image"  src="img/primer_18.png"></a>
+						<a class="example-image-link" href="img/pr_full_1.jpg" data-lightbox="example-set" title="Брюсов пер. 53"><img class="example-image"  src="img/primer_1.png"></a>
+						<a class="example-image-link" href="img/pr_full_2.jpg" data-lightbox="example-set" title="Брюсов пер. 53"><img class="example-image"  src="img/primer_2.png"></a>
+						<a class="example-image-link" href="img/pr_full_3.jpg" data-lightbox="example-set" title="Брюсов пер. 53"><img class="example-image"  src="img/primer_3.png"></a>
+						
+					</div>
+					<!--==================| Slide 4 |=======================-->
+					<div class="slide">
+						<a class="example-image-link" href="img/pr_full_4.jpg" data-lightbox="example-set" title="Брюсов пер. 53"><img class="example-image"  src="img/primer_4.png"></a>
+						<a class="example-image-link" href="img/pr_full_5.jpg" data-lightbox="example-set" title="Октябрьская ул. 53. 60 метров"><img class="example-image"  src="img/primer_5.png"></a>
+						<a class="example-image-link" href="img/pr_full_6.jpg" data-lightbox="example-set" title="Октябрьская ул. 53. 60 метров"><img class="example-image"  src="img/primer_6.png"></a>
+						<a class="example-image-link" href="img/pr_full_7.jpg" data-lightbox="example-set" title="Октябрьская ул. 53. 60 метров"><img class="example-image"  src="img/primer_7.png"></a>
+						<a class="example-image-link" href="img/pr_full_8.jpg" data-lightbox="example-set" title="Октябрьская ул. 53. 60 метров"><img class="example-image"  src="img/primer_8.png"></a>
+						<a class="example-image-link" href="img/pr_full_9.jpg" data-lightbox="example-set" title="Октябрьская ул. 53. 60 метров"><img class="example-image"  src="img/primer_9.png"></a>
+					</div>
+
+					<!--==================| Slide 5 |=======================-->
+					<div class="slide">
+						<a class="example-image-link" href="img/pr_full_19.jpg" data-lightbox="example-set" title="Озеровский пер, 69"><img class="example-image"  src="img/primer_19.png"></a>
+					</div>
+
+
+			    </div>
+			</div>
+
+            
+
+		</div>
+	</div>
+</div>
+<!--portfolio_end-->
+
+<!--twocol-->
+<div class="twocol_wrap">
+	<div class="twocol block960">
+
+		<div class="col col_first">
+			<div class="col_head">С какими сложностями обычно встречаются заказчики</div>
+			<div class="col_list">
+				<div class="col_li li_hight_1">
+					<div class="col_li_head minus">Удалённая оценка</div>
+					<div class="col_li_text">Как правило, она не всегда точна, и по мере работ возникают дополнительные расходы.</div>
+				</div>
+				<div class="col_li li_hight_2">
+					<div class="col_li_head minus">Смета растёт не по дням, а по часам</div>
+					<div class="col_li_text">Стоимость ремонта возрастает в ходе работ.</div>
+				</div>
+				<div class="col_li li_hight_3">
+					<div class="col_li_head minus">Сомнительные строители</div>
+					<div class="col_li_text">Строители, не доделав работу до конца, но, получив деньги, пропадают, уходят в запои, делают работу некачественно. Компании используют дешёвую рабочую силу.</div>
+				</div>
+				<div class="col_li li_hight_4">
+					<div class="col_li_head minus">Строителей не волнует Ваш ремонт</div>
+					<div class="col_li_text">Они хотят лишь получить Ваши деньги и сдать объект как можно скорее.</div>
+				</div>
+				<div class="col_li li_hight_5">
+					<div class="col_li_head minus">Вечный ремонт</div>
+					<div class="col_li_text">Строители не оговаривают сроки окончания работ вообще либо срывают их.</div>
+				</div>
+				<div class="col_li li_hight_6">
+					<div class="col_li_head minus">Вас могут обманывать</div>
+					<div class="col_li_text">Компании «мухлюют» с материалами, используют более дешёвые и некачественные, закупают больше чем нужно или забирают часть себе.</div>
+				</div>
+				<div class="col_li li_hight_7">
+					<div class="col_li_head minus">Некачественное обслуживание</div>
+					<div class="col_li_text">Исполнители не отвечают на Ваши звонки и письма, игнорируют Ваши просьбы и требования.</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col col_second">
+			<div class="col_head">Как работаем мы</div>
+			<div class="col_list">
+				<div class="col_li li_hight_1">
+					<div class="col_li_head plus">Выезд замерщика</div>
+					<div class="col_li_text">Вы будете точно знать стоимость ремонта и срок его окончания, что позволит избежать дополнительных расходов.</div>
+				</div>
+				<div class="col_li li_hight_2">
+					<div class="col_li_head plus">Фиксированная стоимость работ</div>
+					<div class="col_li_text">Весь объём работы и материалов полностью соответствует первоначальной смете и остаётся неизменным на протяжении всего ремонта.</div>
+				</div>
+				<div class="col_li li_hight_3">
+					<div class="col_li_head plus">У нас работают профессионалы</div>
+					<div class="col_li_text">Мы понимаем, что наш главный актив – это люди, и именно поэтому в нашей команде работают только профессионалы своего дела, с подтверждённым опытом работы от 10 лет. Наши строители – это люди, которым можно доверять!</div>
+				</div>
+				<div class="col_li li_hight_4">
+					<div class="col_li_head plus">Мы делаем ремонт с душой!</div>
+					<div class="col_li_text">Высокое качество ремонта и довольные клиенты – вот наши первостепенные задачи. Каждый ремонт мы делаем как для себя!</div>
+				</div>
+				<div class="col_li li_hight_5">
+					<div class="col_li_head plus">Фиксированные сроки</div>
+					<div class="col_li_text">Мы выплачиваем Вам по 1000 рублей неустойки за каждый день просрочки.</div>
+				</div>
+				<div class="col_li li_hight_6">
+					<div class="col_li_head plus">Честность – залог успеха</div>
+					<div class="col_li_text">Все работы и материалы отображаются в простой и прозрачной смете. И даже если Вы не разбираетесь в деталях, мы с удовольствием расскажем Вам о стандартах и тонкостях отделочных работ</div>
+				</div>
+				<div class="col_li li_hight_7">
+					<div class="col_li_head plus">Обслуживание на высшем уровне</div>
+					<div class="col_li_text">Вы получаете ответы на все вопросы по Вашему первому запросу, кроме того, клиентам «Евро» и «Люкс» мы дарим услугу «личный менеджер».</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!--twocol_end-->
+
+<!--ourusl-->
+<div class="ourusl_wrap">
+	<div class="ourusl block960">
+		<div class="block_heading white">Наши услуги</div>
+		<div class="priceblocks">
+            
+            <!--===================| Эконом |=======================-->
+			<div class="piceblock">
+				<div class="prblock_head prh_1">
+					<div class="lit_text_prh">Ремонт класса</div>
+					<div class="big_text_prh">«Эконом»</div>
+				</div>
+				<div class="usl_desc">
+					Выполнение только необходимых видов работ. Фактически, это тот же косметический ремонт, когда помещение просто нужно освежить или заменить незначительные детали. Данный ремонт особенно актуален перед сдачей квартиры в аренду или если Вы хотите сделать ремонт с небольшими затратами средств и времени.
+				</div>
+				<div class="price_over">
+					<div class="price_title">Цены на ремонт класса «Эконом» начинаются</div>
+					<div class="yellow_price">
+						от 2100 руб/м<SUP>2</SUP>
+					</div>
+				</div>
+			</div>
+
+
+			<!--===================| Евро |=======================-->
+			<div class="piceblock center_block">
+				<div class="prblock_head prh_2">
+					<div class="lit_text_prh">Ремонт класса</div>
+					<div class="big_text_prh">«Евро»</div>
+				</div>
+				<div class="usl_desc center_block_text">
+					Полноценные работы с использованием качественных материалов. Выравнивание плоскости по маякам (или с помощью гипсокартона), возведение фальш-стен, утепление балкона, монтаж «теплого пола», замена электрики, замена радиаторов. Идеальное решение для семейной квартиры.
+				</div>
+				<div class="price_over">
+					<div class="price_title">Цены на ремонт класса «Евро» начинаются</div>
+					<div class="yellow_price">
+						от 4500 руб/м2
+					</div>
+				</div>
+			</div>
+
+			<!--===================| Люкс |=======================-->
+			<div class="piceblock">
+				<div class="prblock_head prh_3">
+					<div class="lit_text_prh">Ремонт класса</div>
+					<div class="big_text_prh">«Люкс»</div>
+				</div>
+				<div class="usl_desc">
+					Включает дизайн-проект, капитальный ремонт квартиры, перепланировку помещений. Используются дорогие материалы: паркет, эксклюзивная керамика и сантехника, мрамор и т.п. Если Вы цените свое время, привыкли к высокому сервису и хотите жить в самых лучших условиях, то данное предложение для Вас!
+				</div>
+				<div class="price_over">
+					<div class="price_title">Цены на ремонт класса «Люкс» начинаются</div>
+					<div class="yellow_price">
+						от 9000 руб/м2
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+</div>
+<!--ourusl_end-->
+
+<!--ask-->
+<div class="ask_wrap">
+	<div class="ask block960">
+		<div class="block_heading">Остались вопросы?</div>
+		<div class="ask_left">
+			<img src="img/girl.png">
+			<div class="left_ask_txt">
+				Хотите узнать больше подробностей?
+			</div>
+		</div>
+		<div class="ask_right">
+			<div class="asc_form_wrap">
+				<div class="form-block dark_brown">
+					<div class="form_head">Заполните заявку и <br><span class="bold">мы Вам перезвоним</span> <br>в течение 30 минут</div>
+					<input type="hidden" id="f-utm" value="&lt;br&gt;&lt;strong&gt;Яндекс.Директ метки&lt;/strong&gt;&lt;br&gt;Тип площадки, на которой произведён показ объявления: поисковая площадка&lt;br&gt;Название площадки РСЯ: none&lt;br&gt;Инициирован ли этот показ «дополнительными релевантными фразами»: показ по одной из исходных фраз&lt;br&gt;Тип блока, если показ произошёл на странице с результатами поиска Яндекса: блок не на поиске Яндекса&lt;br&gt;Точная позиция объявления в блоке: 13&lt;br&gt;Ключевая фраза, по которой было показано объявление: ремонт квартир&lt;br&gt;Номер (ID) рекламной кампании: 8804305&lt;br&gt;Номер (ID) объявления: 359948579&lt;br&gt;Номер (ID) ключевой фразы: 2110478172">
+                    <label><input type="text" class="input_st fname" placeholder="Введите Ваше имя"></label>
+                    <label><input type="text" class="input_st fphone" placeholder="Введите Ваш телефон"></label>
+                    <a class="btn_yel btn-send" href="#"><span>Заказать звонок</span></a>
+                    <!--div class="conf">Мы гарантируем 100% конфиденциальность.<br> Ваши данные не будут переданы третьим лицам.</div-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--ask_end-->
+
+<!--ourpart-->
+<div class="ourpart_wrap">
+	<div class="ourpart block960">
+		<div class="block_heading">Нам доверяют</div>
+		<img src="img/logo_partners.png">
+	</div>
+</div>
+<!--ourpart_end-->
+
+<!--howwork-->
+<div class="howwork_wrap">
+	<div class="howwork block960">
+		<div class="block_heading">Этапы работы с нами</div>
+		<div class="howwork_list">
+			<div class="howwork_li">
+				<img src="img/how_ico_1.png">
+				<div class="how_text">Отправьте заявку или позвоните по номеру<br> <span class="bold">8 (967) 064-55-85</span></div>
+			</div>
+            <img src="img/arrow_left.png" class="how_arrow">
+			<div class="howwork_li">
+				<img src="img/how_ico_2.png">
+				<div class="how_text">Мы выезжаем на объект и составляем точную смету</div>
+			</div>
+            <img src="img/arrow_left.png" class="how_arrow">
+			<div class="howwork_li">
+				<img src="img/how_ico_3.png">
+				<div class="how_text">Подписываем договор, производим частичную оплату и приступаем к ремонту квартиры</div>
+			</div>
+            <img src="img/arrow_left.png" class="how_arrow">
+			<div class="howwork_li">
+				<img src="img/how_ico_4.png">
+				<div class="how_text">Поэтапная сдача работ</div>
+			</div>
+            <img src="img/arrow_left.png" class="how_arrow">
+			<div class="howwork_li">
+				<img src="img/how_ico_5.png">
+				<div class="how_text">Вы принимаете готовую квартиру с новым ремонтом и рекомендуете нас друзьям!</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--howwork_end-->
+
+<!--reviews-->
+<div class="reviews_wrap">
+	<div class="reviews block960">
+		<div class="block_heading">Отзывы наших клиентов</div>
+		<div class="reviews_list">
+
+			<!--==================Отзыв 1========================-->
+			<div class="review">
+				<div class="photo_wrap">
+					<img src="img/photo_1.png">
+				</div>
+				<div class="text_rev">
+					<div class="name_rev">Татьяна</div>
+					<div class="text_user">
+						Хочу выразить благодарность от всей нашей семьи за превосходный ремонт. Муж долго выбирал организацию для выполнения работ, по рекомендации знакомого обратился сюда и мы ни капли не пожалели! Все выполнено превосходно. У нас такое чувство что мы купили новую квартиру)) Главное - мы не переживали. Ремонт это всегда ругань, споры и нервы. Слава Богу нам во всем помогал Евгений. Мы вместе с ним ездили выбирать все материалы для отделки. Профессиональный и просто человеческий подход.<br>
+Спасибо! Теперь я советую вас всем своим знакомым))
+					</div>
+				</div>
+			</div>
+
+			<!--==================Отзыв 2========================-->
+			<div class="review">
+				<div class="photo_wrap">
+					<img src="img/photo_2.png">
+				</div>
+				<div class="text_rev">
+					<div class="name_rev">Артем</div>
+					<div class="text_user">
+						В телефонном разговоре менеджер показал свой профессионализм, поэтому все сомнения сразу же отошли в сторону. Не ошибся. Немного опоздали со сроками(задержали на 2 дня), но результатом более чем доволен! Если буду делать ещё ремонт - несомненно обращусь именно к ним!
+					</div>
+				</div>
+			</div>
+
+			<!--==================Отзыв 3========================-->
+			<div class="review">
+				<div class="photo_wrap">
+					<img src="img/photo_3.png">
+				</div>
+				<div class="text_rev">
+					<div class="name_rev">Фатима</div>
+					<div class="text_user">
+						Хочу выразить Вам благодарность за профессионализм, дизайнерскую находчивость и надежность! Именно эти три качества Вашей компании явились основой доверия и признательности! Никакой головной боли, все четко по плану. Перед началом работ мастер грамотно посчитал смету, помог по техническим вопросам. Дизайнер не только слушал, но и слышал мои пожелания!!!! Спасибо! Очень довольна! Успехов Вам и процветания!
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--reviews_end-->
+
+<!--header-->
+<div class="wrap header_wrap">
+	<div class="header block960">
+		<div class="header_left">
+			<div class="akcia">
+				<div class="akcia_head">Акция!</div>
+				<div class="akcia_cont">
+					Создадим дизайн Вашей <br>
+					квартиры <span class="bold">в подарок</span> 
+				</div>
+				<div class="timer_wrap">
+					<div class="timer_title">до конца акции осталось:</div>
+					<div class="timer_js">
+						<div id="countdown2"></div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="header_right">
+			<div class="header_form_wrap">
+				<div class="form-block light_brown">
+					<div class="form_head">Оставьте заявку на <span class="bold">бесплатный расчёт</span> стоимости ремонта</div>
+					<input type="hidden" id="f-utm" value="&lt;br&gt;&lt;strong&gt;Яндекс.Директ метки&lt;/strong&gt;&lt;br&gt;Тип площадки, на которой произведён показ объявления: поисковая площадка&lt;br&gt;Название площадки РСЯ: none&lt;br&gt;Инициирован ли этот показ «дополнительными релевантными фразами»: показ по одной из исходных фраз&lt;br&gt;Тип блока, если показ произошёл на странице с результатами поиска Яндекса: блок не на поиске Яндекса&lt;br&gt;Точная позиция объявления в блоке: 13&lt;br&gt;Ключевая фраза, по которой было показано объявление: ремонт квартир&lt;br&gt;Номер (ID) рекламной кампании: 8804305&lt;br&gt;Номер (ID) объявления: 359948579&lt;br&gt;Номер (ID) ключевой фразы: 2110478172">
+                    <label><input type="text" class="input_st fname" placeholder="Введите Ваше имя"></label>
+                    <label><input type="text" class="input_st fphone" placeholder="Введите Ваш телефон"></label>
+                    <a class="btn_yel btn-send" href="#"><span>Заказать расчёт</span></a>
+                    <!--div class="conf">Мы гарантируем 100% конфиденциальность.<br> Ваши данные не будут переданы третьим лицам.</div-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--header_end-->
+
+<!--top-->
+<div class="top_wrap">
+	<div class="top block960">
+		<div class="logo_ower">
+			<h1><span class="brown">СТРОЙ -</span> РЕМОНТ №1 </h1>
+			<h2>г. Москва, 9-я Парковая, 9А, оф. 26</h2>
+		</div>
+		<div class="phone_wrap">
+			<div class="zvoni_foot">Звоните прямо сейчас!</div>
+			<div class="phone_number_foot">8 (967) <span class="brown">064-55-85</span></div>
+		</div>
+	</div>
+</div>
+<!--top_end-->
+
+<!--=============Modal Window=============-->
+
+<div id="modal-success" class="modal">
+	<div class="form-block modal-form modal-success">
+        <div class="close-modal" style="margin-left: 300px;">x</div>
+        <div class="form-top">&nbsp;</div>
+        <h3>Спасибо за Вашу заявку!<br><br>
+Мы свяжемся с Вами в самое ближайшее время!</h3>
+    </div>
+</div>
+
+
+<div id="modal-form1" class="modal">
+    <div class="modal-form">
+    	<div class="close-modal">x</div>
+        Укажите Ваше имя и телефон,
+чтобы мы могли с Вами связаться
+    </div>
+</div>
+
+
+<div class="overlay"></div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter24530612 = new Ya.Metrika({id:24530612,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/24530612" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+</html>

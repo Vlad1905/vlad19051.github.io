@@ -1,0 +1,44 @@
+#slideshow {
+	width: 960px;
+	margin: auto;
+}
+
+#slidesContainer {
+	margin-top: 40px;
+	background: url(../img/slider_bg_us.html) no-repeat;
+}
+
+.control {
+text-indent: -10000px;
+position: absolute;
+cursor: pointer;
+height: 62px;
+width: 52px;
+}
+
+#leftControl {
+background: rgba(0, 0, 0, 0) url(../img/arrow_p.png) no-repeat 0 0;
+margin-left: -60px;
+margin-top: 210px;
+}
+
+#leftControl:hover {
+}
+
+#rightControl:hover {
+}
+
+#rightControl {
+background: rgba(0, 0, 0, 0) url(../img/arrow_n.png) no-repeat 0 0;
+margin-left: 980px;
+margin-top: -265px;
+}
+
+.slide{
+ }
+
+ .example-image {
+display: block;
+float: left;
+margin: 10px;
+}

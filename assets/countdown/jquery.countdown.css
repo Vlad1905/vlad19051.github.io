@@ -1,0 +1,77 @@
+.countdownHolder{
+	width:400px;
+	margin:0 auto;
+	letter-spacing:-3px;
+	font:40px/1.5 'Open Sans Condensed',sans-serif;
+}
+
+.position{
+	display: inline-block;
+	height: 80px;
+	overflow: hidden;
+	position: relative;
+	width: 35px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	font-family: Open Sans;
+	font-weight: 300;
+}
+
+.digit{
+	padding-top: 4px;
+	position:absolute;
+	display:block;
+	border-radius:0.2em;
+	text-align:center;
+	color:#333;
+	height:80px;
+	font-size:50px;
+	width:30px;
+}
+
+.digit.static{
+	
+
+	
+}
+
+
+
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+
+
+.countDays{   }
+.countDiv0{   }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+	display:inline-block;
+	width:16px;
+	height:70px;
+	position:relative;
+}
+
+.countDiv:before,
+.countDiv:after{
+	position:absolute;
+	width:5px;
+	height:5px;
+	background-color:rgba(255, 255, 255, 0.88);
+	border-radius:50%;
+	left:50%;
+	margin-left:-3px;
+	top:0.5em;
+	content:'';
+}
+
+.countDiv:after{
+	top:0.9em;
+}
